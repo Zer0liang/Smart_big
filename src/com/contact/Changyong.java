@@ -29,7 +29,7 @@ public class Changyong extends Activity {
 	private Button daoru,qingkong;
 	private Button save1,chakan1,send1;
 	File file1=new File("name.txt");
-	File file2=new File("number.txt");
+	File file2=new File("number.txt");//adwdawdawdad
 	int num;
 	private static Bluetooth blu;
 	public OutputStream outStream = null;
