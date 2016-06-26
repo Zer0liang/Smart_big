@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+			android:id="@+id/tableLayout1"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:padding="10dp"
+			android:background="@drawable/background"
+			xmlns:android="http://schemas.android.com/apk/res/android">
+			<!--第一行！ -->
+	<TableRow 
+						android:id="@+id/tableRow1"
+						android:layout_width="fill_parent"
+						android:layout_weight="1">
+						<LinearLayout
+						android:id="@+id/linearLayout1"
+						android:layout_width="wrap_content"
+						android:layout_weight="1"
+						android:background="@drawable/block"
+						android:padding="40px">
+						<ImageView 
+									android:src="@drawable/lanya"
+									android:id="@+id/Lanya"
+									android:layout_weight="1"
+									android:layout_width="wrap_content"
+									android:layout_height="fill_parent"/>
+						</LinearLayout>
+	</TableRow>
+			<!-- 第二行！ -->
+	<TableRow 
+						android:id="@+id/tableRow2"
+						android:layout_width="fill_parent"
+						android:layout_weight="1">
+						<LinearLayout
+						android:id="@+id/linearLayout2"
+						android:layout_width="wrap_content"
+						android:background="@drawable/block"
+						android:layout_weight="1"
+						android:padding="10px">
+						<ImageView 
+									android:src="@drawable/shoudian"
+									android:id="@+id/shoudian"
+									android:layout_weight="1"
+
+									android:layout_width="wrap_content"
+									android:layout_height="fill_parent"/>
+							<ImageView 
+									android:src="@drawable/yinyue"
+									android:id="@+id/yinyue"
+									android:layout_weight="1"
+
+									android:layout_marginLeft="50px"
+									android:layout_width="wrap_content"
+									android:layout_height="fill_parent"/>		
+			</LinearLayout>
+	</TableRow>
+			<!-- 第三行！ -->
+	<TableRow 
+						android:id="@+id/tableRow3"
+						android:layout_width="fill_parent"
+						android:layout_weight="1">
+
+		<LinearLayout
+		    android:id="@+id/linearLayout3"
+		    android:layout_width="wrap_content"
+		    android:layout_weight="1"
+		    android:background="@drawable/block"
+		    android:padding="10px" >
+
+		    <ImageView
+		        android:id="@+id/anquan"
+		        android:layout_width="wrap_content"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="2"
+		        android:src="@drawable/anquan" />
+
+		    <ToggleButton
+		        android:id="@+id/anquan_button"
+		        android:layout_width="wrap_content"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="1" />
+
+		    <ToggleButton
+		        android:id="@+id/suo_button"
+		        android:layout_width="wrap_content"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="1" />
+
+		    <ImageView
+		        android:id="@+id/suo"
+		        android:layout_width="wrap_content"
+		        android:layout_height="fill_parent"		       
+		        android:layout_weight="2"
+		        android:src="@drawable/suo" />
+		</LinearLayout>
+
+	</TableRow>
+			<!-- 第四行！ -->
+	<TableRow 
+						android:id="@+id/tableRow4"
+						android:layout_width="fill_parent"
+						android:layout_weight="1"
+						android:background="@drawable/block">
+						<LinearLayout
+						android:id="@+id/linearLayout4"
+						android:layout_width="wrap_content"
+						android:layout_weight="1"
+						android:layout_margin="20px">
+						<ImageView 
+									android:src="@drawable/call"
+									android:id="@+id/call"
+									android:layout_weight="1"
+									android:layout_width="wrap_content"
+									android:layout_height="fill_parent"/>
+		</LinearLayout>
+	</TableRow>	
+</TableLayout>

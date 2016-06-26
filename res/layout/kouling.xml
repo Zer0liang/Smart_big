@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableRow 
+        	android:id="@+id/kouling_TableRow1"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content">
+        	<LinearLayout 
+            android:id="@+id/kouling_LinearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+       	    android:orientation="horizontal" >
+            
+            <TextView 
+        	android:id="@+id/kouling_TextView1"
+       	 	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="救命口令"/>
+            <EditText 
+        	android:id="@+id/kouling_EditText1"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content" />
+        	</LinearLayout>
+    </TableRow>
+    
+    <TableRow 
+        	android:id="@+id/kouling_TableRow2"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content">
+        	<LinearLayout 
+            android:id="@+id/kouling_LinearLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+       	    android:orientation="horizontal" >
+            
+            <TextView 
+        	android:id="@+id/kouling_TextView2"
+       	 	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="接电话口令"/>
+            <EditText 
+        	android:id="@+id/kouling_EditText2"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content" />
+        	</LinearLayout>
+    </TableRow>
+    
+    <TableRow 
+        	android:id="@+id/kouling_TableRow3"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content">
+        	<LinearLayout 
+            android:id="@+id/kouling_LinearLayout3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+       	    android:orientation="horizontal" >
+            
+            <TextView 
+        	android:id="@+id/kouling_TextView3"
+       	 	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="拒接电话口令"/>
+            <EditText
+        	android:id="@+id/kouling_EditText3"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content" />
+        	</LinearLayout>
+    </TableRow>
+    
+    <TableRow 
+        	android:id="@+id/kouling_TableRow4"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content">
+        	<LinearLayout 
+            android:id="@+id/kouling_LinearLayout4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+       	    android:orientation="horizontal" >
+            
+            <TextView 
+        	android:id="@+id/kouling_TextView4"
+       	 	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="重拨电话口令"/>
+            <EditText
+        	android:id="@+id/kouling_EditText4"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content" />
+        	</LinearLayout>
+    </TableRow>
+
+    <TableRow 
+        	android:id="@+id/kouling_TableRow5"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content">
+        	<LinearLayout 
+            android:id="@+id/kouling_LinearLayout5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+       	    android:orientation="horizontal" >
+            
+            <TextView 
+        	android:id="@+id/kouling_TextView5"
+       	 	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="挂断电话口令"/>
+            <EditText 
+        	android:id="@+id/kouling_EditText5"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content" />
+        	</LinearLayout>
+    </TableRow>
+    
+    <TableRow 
+        	android:id="@+id/kouling_TableRow6"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content">
+        	<LinearLayout 
+            android:id="@+id/kouling_LinearLayout6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+       	    android:orientation="horizontal" >
+            
+            <TextView 
+        	android:id="@+id/kouling_TextView6"
+       	 	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="打电话口令"/>
+            <EditText
+        	android:id="@+id/kouling_EditText6"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content" />
+        	</LinearLayout>
+    </TableRow>
+    <TableRow 
+        	android:id="@+id/kouling_TableRow7"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content">
+        	<LinearLayout 
+            android:id="@+id/kouling_LinearLayout7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+       	    android:orientation="horizontal" >
+            <Button 
+                android:id="@+id/kouling_button1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="保存"/>
+            	<Button 
+            	    android:id="@+id/kouling_button2"
+            	    android:layout_width="fill_parent"
+            	    android:layout_height="wrap_content"
+            	    android:layout_weight="1"
+            	    android:text="查看"/>
+            </LinearLayout>
+        	</TableRow>
+        	<TableRow 
+        	android:id="@+id/kouling_TableRow8"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content">
+        	<LinearLayout 
+            android:id="@+id/kouling_LinearLayout8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+       	    android:orientation="horizontal" >
+            <Button 
+                android:id="@+id/kouling_button3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="发送"/>
+            <Button 
+                android:id="@+id/kouling_button4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="查询发送"/>
+            </LinearLayout>
+            </TableRow>
+</TableLayout>

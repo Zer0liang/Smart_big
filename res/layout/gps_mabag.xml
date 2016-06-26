@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+<LinearLayout
+	android:orientation="horizontal"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:gravity="center_horizontal">
+	<TextView
+		android:text="经度："
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+	<!-- 定义输入经度值的文本框 -->
+	<EditText
+		android:id="@+id/lng"
+		android:text="@string/lng"
+		android:inputType="numberDecimal"
+		android:layout_width="100dp"
+		android:layout_height="wrap_content" />
+	<TextView
+		android:text="纬度："
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingLeft="8dp" />
+	<!-- 定义输入纬度值的文本框 -->
+	<EditText
+		android:id="@+id/lat"
+		android:text="@string/lat"
+		android:inputType="numberDecimal"
+		android:layout_width="100dp"
+		android:layout_height="wrap_content" />
+	<Button
+		android:id="@+id/dingwei"
+		android:text="定位"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		 />
+</LinearLayout>
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <EditText 
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        />
+    <Button 
+        android:id="@+id/jiexi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="到这去！"
+        />
+</LinearLayout>
+<!-- 使用高德地图的提供的MapView -->
+<com.amap.api.maps.MapView
+	android:id="@+id/map"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" />
+</LinearLayout>

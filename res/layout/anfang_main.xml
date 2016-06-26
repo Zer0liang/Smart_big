@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+     <!--  创建一个anfang打开按钮 -->
+   <Button android:id="@+id/anfang_ON"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:text="@string/anfang_ON" 
+      />
+   <!-- 创建一个anfang关闭按钮 -->
+   <Button android:id="@+id/anfang_OFF"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:text="@string/anfang_OFF" 
+      />
+    
+
+</LinearLayout>

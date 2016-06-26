@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Smart_bag</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    				<!-- 照明手电资源 -->
+	<string name="led_open">打开LED灯</string>
+	<string name="led_close">关闭LED灯</string>	
+	<string name="shoudian_Activity">照明手电</string>
+	
+					<!-- 安防功能资源 -->
+	<string name="anfang_Activity">安全防护</string>			
+	<string name="anfang_ON">安防开启</string>
+	<string name="anfang_OFF">安防关闭</string>
+	
+					<!-- 警报资源 -->
+	<string name="select_Activity">警报设置</string>
+	<string name="listview_Activity">联系人</string>
+	<string name="changyong_Activity">联系人</string>
+	<string name="kouling_Activity">口令设置</string>
+	
+	
+	<string name="rssi_Activity">口令设置</string>
+	
+					<!-- 地图定位资源 -->
+	<string name="gps_mybag">背包定位</string>
+	<string	name="lng">119.535357</string>
+	<string	name="lat">35.44366333</string>
+	
+	
+</resources>

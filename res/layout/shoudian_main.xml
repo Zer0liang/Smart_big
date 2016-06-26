@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent" 
+    android:orientation="vertical">
+    
+   <!--  创建一个led打开按钮 -->
+   <Button android:id="@+id/led_open"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:text="@string/led_open" 
+      />
+   <!-- 创建一个led关闭按钮 -->
+   <Button android:id="@+id/led_close"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:text="@string/led_close" 
+      />
+    
+</LinearLayout>

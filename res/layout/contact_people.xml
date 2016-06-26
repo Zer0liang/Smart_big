@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    <!-- 第一行 -->
+<TableRow 
+    android:id="@+id/TableRow1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/LinearLayput1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <EditText 
+            android:id="@+id/name1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+              android:inputType="text"/>
+        <EditText 
+            android:id="@+id/number1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+              android:inputType="phone"/>
+        
+    </LinearLayout>
+</TableRow>
+ 	<!-- 第二行 -->
+<TableRow
+    android:id="@+id/tableRow2"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+    
+    <LinearLayout
+        android:id="@+id/LinearLayput2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <EditText 
+            android:id="@+id/name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+              android:inputType="text"/>
+        <EditText 
+            android:id="@+id/number2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+              android:inputType="phone"/>
+        
+    </LinearLayout>
+</TableRow>
+ <!-- 第三行 -->
+<TableRow
+    android:id="@+id/tableRow3"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+    
+    <LinearLayout
+        android:id="@+id/LinearLayput3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <EditText 
+            android:id="@+id/name3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+              android:inputType="text"/>
+        <EditText 
+            android:id="@+id/number3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:inputType="phone"/>       
+    </LinearLayout>
+</TableRow>
+ <!-- 第四行 -->
+<TableRow
+    android:id="@+id/tableRow4"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+    
+    <LinearLayout
+        android:id="@+id/LinearLayput4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <EditText 
+            android:id="@+id/name4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+              android:inputType="text"/>
+        <EditText 
+            android:id="@+id/number4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+              android:inputType="phone"/>
+        
+    </LinearLayout>
+</TableRow>
+ <!-- 第五行 -->
+<TableRow
+    android:id="@+id/tableRow5"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+    
+    <LinearLayout
+        android:id="@+id/LinearLayput5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <EditText 
+            android:id="@+id/name5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+              android:inputType="text"/>
+        <EditText 
+            android:id="@+id/number5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+              android:inputType="phone"/>
+        
+    </LinearLayout>
+</TableRow>
+ <!-- 第六行 -->
+<TableRow 
+    android:id="@+id/TabRow6"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/LinearLayput6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+    <Button
+        android:id="@+id/save1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="保存" />
+    
+    <Button 
+        android:id="@+id/chankan1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="查看"/>
+    </LinearLayout>
+</TableRow>
+ <!-- 第七行 -->
+<TableRow 
+    android:id="@+id/TableRow7"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+    <Button 
+        android:id="@+id/send1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="发送"
+        android:layout_weight="1"
+        />
+    
+</TableRow>
+<TableRow 
+    android:id="@+id/TableRow8"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+     <LinearLayout
+        android:id="@+id/LinearLayput8"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+    <Button 
+        android:id="@+id/daoru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="导入"
+        android:layout_weight="1"/>
+    <Button 
+        android:id="@+id/qingkong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="清空"
+        android:layout_weight="1"
+        />
+       </LinearLayout>
+</TableRow>
+
+</TableLayout>

@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.smart_bag.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="设置"/>
+    
+    
+    <item 
+        android:id="@+id/Lianjie"
+        android:title="蓝牙连接"
+        />
+    
+    <item android:id="@+id/Duankai"
+        android:title="蓝牙断开"/>
+    
+     <item android:id="@+id/Dakai"
+        android:title="打开蓝牙"/>
+     
+     <item android:id="@+id/shebeikejian"
+        android:title="设备可见"/>
+     
+     <item android:id="@+id/chushihua"
+        android:title="初始化"/>
+     
+     <item android:id="@+id/lianxiren"
+        android:title="常用联系人"/>
+ 	<item 
+ 	    android:id="@+id/kouling"
+ 	    android:title="口令设置"
+ 	    />
+</menu>
