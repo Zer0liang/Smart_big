@@ -40,7 +40,7 @@ public class Changyong extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		
-		super.onCreate(savedInstanceState);
+		super.onCreate(savedInstanceState);//sedfaqwd
 		setContentView(R.layout.contact_people);
 	//	isInterrupt=false;
 		name1=(EditText)findViewById(R.id.name1);
