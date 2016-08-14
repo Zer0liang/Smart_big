@@ -26,7 +26,7 @@ public class anfang extends Activity {
             if(blu2.btSocket==null){
 				Toast.makeText(anfang.this, "请确保您的蓝牙已经连接！", Toast.LENGTH_LONG).show();
 			}else{
-            Button Anfang_open=(Button)findViewById(R.id.anfang_ON);//获取Led打开按钮
+            Button Anfang_open=(Button)findViewById(R.id.anfang_ON);//获取Led打开按钮 asd
             Anfang_open.setOnClickListener(new OnClickListener() {//设置事件监听
 				
 				@Override
